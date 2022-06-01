@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "cuisine": {
+      "type": "string"
+    },
+    "cuisines": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "confidence": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "cuisine",
+    "cuisines",
+    "confidence"
+  ]
+}
